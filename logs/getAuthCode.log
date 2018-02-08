@@ -1,0 +1,3 @@
+Wed, 14 Jun 2017 17:05:23 getAuthCode.py[line:28] INFO http://test.eyuntx.com/d-app/API/getAuthCode?submitTime=20160714090000&sign=d79ed12fc24fdedf0ee4999aeb564366&appVersion=appVersion&appType=M&osname=ANDROID&mobile=15757185334&verCodeType=1
+Wed, 14 Jun 2017 17:05:23 connectionpool.py[line:207] DEBUG Starting new HTTP connection (1): test.eyuntx.com
+Wed, 14 Jun 2017 17:05:23 connectionpool.py[line:395] DEBUG http://test.eyuntx.com:80 "GET /d-app/API/getAuthCode?submitTime=20160714090000&sign=d79ed12fc24fdedf0ee4999aeb564366&appVersion=appVersion&appType=M&osname=ANDROID&mobile=15757185334&verCodeType=1 HTTP/1.1" 502 None

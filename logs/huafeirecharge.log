@@ -1,0 +1,12 @@
+Wed, 14 Jun 2017 10:24:21 connectionpool.py[line:207] DEBUG Starting new HTTP connection (1): test.eyuntx.com
+Wed, 14 Jun 2017 10:24:21 connectionpool.py[line:395] DEBUG http://test.eyuntx.com:80 "GET /d-app/API/userLogin?submitTime=20160714090000&sign=065e5b97635e575697be9ba93727c4d3&mobile=15757185534&passWord=111111&appVersion=appVersion&appType=M&osname=ANDROID HTTP/1.1" 200 None
+Wed, 14 Jun 2017 10:24:21 connectionpool.py[line:207] DEBUG Starting new HTTP connection (1): test.eyuntx.com
+Wed, 14 Jun 2017 10:24:21 connectionpool.py[line:395] DEBUG http://test.eyuntx.com:80 "GET /d-app/API/findPayChnList?submitTime=20160714090000&sign=297cd3b1c841b36e47e793573bb7393b&appVersion=appVersion&appType=C&osname=IOS&appSessionId=DEF711B3308394CBF46EDE0FA18C0CDE.GBT_APP&busiType=1&sonBusiType=1&terminalType=4 HTTP/1.1" 200 None
+Wed, 14 Jun 2017 10:24:21 API_findPayChnList.py[line:76] INFO {"errCode":"40001","errDesc":"非法请求","result":[],"success":false}
+Wed, 14 Jun 2017 10:24:21 API_findPayChnList.py[line:81] INFO 接口请求失败
+Wed, 14 Jun 2017 10:24:21 connectionpool.py[line:207] DEBUG Starting new HTTP connection (1): test.eyuntx.com
+Wed, 14 Jun 2017 10:24:21 connectionpool.py[line:395] DEBUG http://test.eyuntx.com:80 "GET /d-app/API/userLogin?submitTime=20160714090000&sign=065e5b97635e575697be9ba93727c4d3&mobile=15757185534&passWord=111111&appVersion=appVersion&appType=M&osname=ANDROID HTTP/1.1" 200 None
+Wed, 14 Jun 2017 10:24:21 connectionpool.py[line:207] DEBUG Starting new HTTP connection (1): test.eyuntx.com
+Wed, 14 Jun 2017 10:24:21 connectionpool.py[line:395] DEBUG http://test.eyuntx.com:80 "GET /d-app/API/findPayChnList?submitTime=20160714090000&sign=341b5417dd8c0c5b388f9fbe401903af&appVersion=appVersion&appType=M&osname=ANDROID&appSessionId=DEF711B3308394CBF46EDE0FA18C0CDE.GBT_APP&busiType=2&sonBusiType=0&terminalType=3 HTTP/1.1" 200 None
+Wed, 14 Jun 2017 10:24:21 API_findPayChnList.py[line:76] INFO {"errCode":"10000","errDesc":"成功","result":[{"payChnName":"风猫代理商富有银行卡支付","payChn":6},{"payChnName":"风猫代理商支付宝支付","payChn":1},{"payChnName":"风猫代理商微信支付","payChn":2}],"success":true}
+Wed, 14 Jun 2017 10:24:21 API_findPayChnList.py[line:78] INFO 接口请求成功

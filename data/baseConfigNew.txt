@@ -1,0 +1,13 @@
+apiurl_test:  
+appkey:
+redis_ip:
+redis_port:
+redis_psw:
+secret_M:
+appSessionId_M:
+secret_C:
+appSessionId_C:
+host:
+db:
+user:
+password:
