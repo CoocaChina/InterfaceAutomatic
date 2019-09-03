@@ -8,11 +8,11 @@ import time
 
 import sys
 
-from fengmaoTest_Tools.OpenExcel import openExcel
-from fengmaoTest_Tools.fengmao_md5 import md5encryption,oldMd5sign
-from fengmaoTest_Tools.fengmao_redis import redisInit
-from  fengmaoTest_Tools.txt_read import txtCont
-from fengmaoTest_Tools import fengmao_Global
+from tools.OpenExcel import openExcel
+from tools.fengmao_md5 import md5encryption,oldMd5sign
+from tools.fengmao_redis import redisInit
+from  tools.txt_read import txtCont
+from tools import fengmao_Global
 
 # 获取日志配置文件
 logging.config.fileConfig("../data/logger.conf")

@@ -7,7 +7,7 @@ secret_M:
 appSessionId_M:
 secret_C:
 appSessionId_C:
-host:
-db:
-user:
-password:
+host:rm-bp129c5236x5x669i2o.mysql.rds.aliyuncs.com:3306
+db:sxc
+user:sxc_test_server
+password:vCMGPP3b9KptEfiY

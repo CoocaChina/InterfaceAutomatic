@@ -1,7 +1,7 @@
 #?/bin/usr/python
 #-*- coding: utf-8 -*-
 import redis
-from  fengmaoTest_Tools.txt_read import txtCont
+from  tools.txt_read import txtCont
 dict = txtCont("../data/baseConfigNew.txt")
 host = '120.55.170.91'
 port = dict['redis_port']

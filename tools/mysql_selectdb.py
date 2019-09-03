@@ -3,7 +3,7 @@
 import unittest
 import os,sys
 import logging.config
-from fengmaoTest_Tools.mysql_db import DB
+from tools.mysql_db import DB
     # 获取日志配置文件
 logging.config.fileConfig("../data/logger.conf")
 logger = logging.getLogger("example01")
