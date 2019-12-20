@@ -29,7 +29,6 @@ class DB:
                                               cursorclass=pymysql.cursors.DictCursor)
         except pymysql.err.OperationalError as e:
             print("Mysql Error %d: %s" % (e.args[0], e.args[1]))
-
     def dbselect(self, sql_data):
         with self.connection.cursor() as cursor:
             cursor.execute(sql_data)

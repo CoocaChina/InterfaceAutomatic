@@ -1,29 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="72bd3812-fc40-4243-9240-7a40a094cc22" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comparison/dataComparison.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sqlrelated/syn_table.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/smtp_base.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/InterfaceAutomatic.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/InterfaceAutomatic.iml" afterDir="false" />
+    <list default="true" id="72bd3812-fc40-4243-9240-7a40a094cc22" name="Default" comment="新增脚本">
+      <change afterPath="$PROJECT_DIR$/sqlrelated/api_syn.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/request_text_read.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/baseConfigNew.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/baseConfigNew.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fengmaoTest_Tools/Modify-file.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools/Modify-file.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fengmaoTest_Tools/OpenExcel.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools/OpenExcel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fengmaoTest_Tools/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/comparison/comparison.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fengmaoTest_Tools/fengmaoAPI_method.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools/fengmaoAPI_method.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fengmaoTest_Tools/fengmao_Global.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools/fengmao_Global.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fengmaoTest_Tools/fengmao_md5.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools/fengmao_md5.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fengmaoTest_Tools/fengmao_obj_dic.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools/fengmao_obj_dic.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fengmaoTest_Tools/fengmao_redis.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools/fengmao_redis.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fengmaoTest_Tools/httpRequest.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools/httpRequest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fengmaoTest_Tools/http_request.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools/http_request.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fengmaoTest_Tools/mysql_db.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools/mysql_db.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fengmaoTest_Tools/mysql_selectdb.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools/mysql_selectdb.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fengmaoTest_Tools/txt_read.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools/txt_read.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sqlrelated/syn_table.py" beforeDir="false" afterPath="$PROJECT_DIR$/sqlrelated/syn_table.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/mysql_db.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools/mysql_db.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,8 +20,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tools/mysql_db.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2000">
-              <caret line="80" selection-start-line="80" selection-end-line="80" />
+            <state relative-caret-position="2050">
+              <caret line="85" column="45" selection-start-line="85" selection-end-line="86" />
               <folding>
                 <element signature="e#95#106#0" expanded="true" />
               </folding>
@@ -46,51 +30,40 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tools/fengmaoAPI_method.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="696" column="84" selection-start-line="696" selection-start-column="84" selection-end-line="696" selection-end-column="84" />
-              <folding>
-                <element signature="e#41#52#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/baseConfigNew.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="9" column="55" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="55" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/comparison/dataComparison.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
-              <caret line="91" column="34" lean-forward="true" selection-start-line="91" selection-start-column="34" selection-end-line="91" selection-end-column="34" />
-              <folding>
-                <element signature="e#0#29#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sqlrelated/syn_table.py">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1100">
+              <caret line="50" selection-start-line="50" selection-end-line="50" />
+              <folding>
+                <element signature="e#0#14#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/comparison/comparison.py">
+        <entry file="file://$PROJECT_DIR$/tools/OpenExcel.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="469">
-              <caret line="132" selection-start-line="132" selection-end-line="132" />
-              <folding>
-                <element signature="e#0#22#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="200">
+              <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tools/txt_read.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="5" column="25" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tools/request_text_read.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="550">
+              <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -98,10 +71,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tools/smtp_base.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1025">
+            <state relative-caret-position="900">
               <caret line="41" column="25" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="25" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sqlrelated/api_syn.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1500">
+              <caret line="60" selection-start-line="60" selection-end-line="62" selection-end-column="39" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -128,13 +113,15 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/tools/fengmao_obj_dic.py" />
-        <option value="$PROJECT_DIR$/data/baseConfigNew.txt" />
         <option value="$PROJECT_DIR$/tools/smtp_base.py" />
         <option value="$PROJECT_DIR$/comparison/comparison.py" />
-        <option value="$PROJECT_DIR$/tools/mysql_db.py" />
         <option value="$PROJECT_DIR$/tools/fengmaoAPI_method.py" />
         <option value="$PROJECT_DIR$/comparison/dataComparison.py" />
+        <option value="$PROJECT_DIR$/tools/mysql_db.py" />
+        <option value="$PROJECT_DIR$/data/baseConfigNew.txt" />
+        <option value="$PROJECT_DIR$/tools/request_text_read.py" />
         <option value="$PROJECT_DIR$/sqlrelated/syn_table.py" />
+        <option value="$PROJECT_DIR$/sqlrelated/api_syn.py" />
       </list>
     </option>
   </component>
@@ -165,6 +152,11 @@
             <path>
               <item name="InterfaceAutomatic" type="b2602c69:ProjectViewProjectNode" />
               <item name="InterfaceAutomatic" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="InterfaceAutomatic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="InterfaceAutomatic" type="462c0819:PsiDirectoryNode" />
               <item name="sqlrelated" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -182,8 +174,13 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../jarvis" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/tools" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\code\InterfaceAutomatic\tools" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -197,7 +194,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.comparison">
+  <component name="RunManager" selected="Python.api_syn">
+    <configuration name="api_syn" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="InterfaceAutomatic" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sqlrelated" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sqlrelated/api_syn.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="comparison" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="InterfaceAutomatic" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -211,27 +229,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/comparison/comparison.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="dataComparison" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="InterfaceAutomatic" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/comparison" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/comparison/dataComparison.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -261,7 +258,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="smtp_base" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="request_text_read" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="InterfaceAutomatic" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -273,7 +270,28 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tools/smtp_base.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tools/request_text_read.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="syn_table" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="InterfaceAutomatic" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sqlrelated" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sqlrelated/syn_table.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -284,10 +302,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.api_syn" />
+        <item itemvalue="Python.request_text_read" />
+        <item itemvalue="Python.syn_table" />
         <item itemvalue="Python.comparison" />
         <item itemvalue="Python.mysql_db" />
-        <item itemvalue="Python.dataComparison" />
-        <item itemvalue="Python.smtp_base" />
       </list>
     </recent_temporary>
   </component>
@@ -302,6 +321,14 @@
       <option name="presentableId" value="Default" />
       <updated>1518083669628</updated>
     </task>
+    <task id="LOCAL-00001" summary="新增脚本">
+      <created>1567476926840</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1567476926840</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView">
@@ -315,22 +342,21 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17635404" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12483487" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32991204" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32991204" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.40029326" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49141347" weight="0.32991204" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.497358" weight="0.40029326" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32991204" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32991204" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32991204" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32991204" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4993395" weight="0.32991204" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4993395" weight="0.32991204" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.4980185" visible="true" weight="0.32991204" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5019815" side_tool="true" visible="true" weight="0.32991204" />
+      <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.4993395" weight="0.32991204" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -340,6 +366,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="新增脚本" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增脚本" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/tools/__init__.py">
@@ -355,20 +385,6 @@
           <folding>
             <element signature="e#41#56#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tools/txt_read.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="17" selection-start-column="17" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/pymysql/cursors.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="145" selection-start-line="145" selection-end-line="145" />
         </state>
       </provider>
     </entry>
@@ -420,13 +436,6 @@
     <entry file="file://$PROJECT_DIR$/tools/fengmao_Global.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/tools/OpenExcel.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tools/httpRequest.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -447,53 +456,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/myapp.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1400">
-          <caret line="56" column="75" selection-start-line="56" selection-start-column="72" selection-end-line="56" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/pymysql/connections.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="480" column="8" selection-start-line="480" selection-start-column="8" selection-end-line="480" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/baseConfigNew.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="55" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/comparison/comparison.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="469">
-          <caret line="132" selection-start-line="132" selection-end-line="132" />
+        <state relative-caret-position="-50">
+          <caret line="28" column="51" selection-start-line="28" selection-start-column="51" selection-end-line="28" selection-end-column="51" />
           <folding>
             <element signature="e#0#22#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tools/smtp_base.py">
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/pymysql/err.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1025">
-          <caret line="41" column="25" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="1831">
+          <caret line="108" selection-start-line="108" selection-end-line="108" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tools/mysql_db.py">
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/pymysql/connections.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2000">
-          <caret line="80" selection-start-line="80" selection-end-line="80" />
+        <state relative-caret-position="177">
+          <caret line="490" selection-start-line="490" selection-end-line="490" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comparison/dataComparison.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1125">
+          <caret line="12" column="21" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="21" />
           <folding>
-            <element signature="e#95#106#0" expanded="true" />
+            <element signature="e#0#29#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -508,18 +500,87 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/comparison/dataComparison.py">
+    <entry file="file://$PROJECT_DIR$/data/myapp.log">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="91" column="34" lean-forward="true" selection-start-line="91" selection-start-column="34" selection-end-line="91" selection-end-column="34" />
+        <state relative-caret-position="-17522">
+          <caret line="56" column="75" selection-start-line="56" selection-start-column="72" selection-end-line="56" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/pymysql/cursors.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="169" selection-start-line="169" selection-end-line="169" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/baseConfigNew.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="20" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/mysql_db.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2050">
+          <caret line="85" column="45" selection-start-line="85" selection-end-line="86" />
           <folding>
-            <element signature="e#0#29#0" expanded="true" />
+            <element signature="e#95#106#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sqlrelated/syn_table.py">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1100">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/OpenExcel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/txt_read.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/request_text_read.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/smtp_base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="41" column="25" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sqlrelated/api_syn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1500">
+          <caret line="60" selection-start-line="60" selection-end-line="62" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
