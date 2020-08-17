@@ -16,6 +16,7 @@ class redisInit():
   #     value = (self.r.get(redisKey))
   #     #print ('redisValue is ' + value)
   #     return value
+
   def redisGetKey(self,redisKey):
       value = (self.r.get(redisKey)).decode('ascii')
       #print ('redisValue is ' + value)

@@ -12,6 +12,8 @@ sender_to='shijifeng@songxiaocai.com' # 收件人邮箱
 class email():
     def __init__(self):
         print(1)
+
+    @classmethod
     def send_email(self,eamil_subject:str,email_content:str)->int:
         try:
              # 构造邮件的内容  plain:表示发送的是文本；HTML：表示发送的超文本
@@ -26,7 +28,7 @@ class email():
             # 连接邮箱服务器 host 和 port
             smtp.connect('smtp.qq.com', 25)   # 可以简写  smtp=smtplib.SMTP('smtp.qq.com',25)
             # 登陆邮箱  第二个参数是qq邮箱授权码
-            smtp.login(sender_from, 'hrthyvylnhezbcih')
+            smtp.login(sender_from, 'uhellskaqvvobdfd')
             # 发送方，接收方（可以有多个['接收地址1'，'接收地址2'，....]），发送的消息（字符串类型，使用邮件格式）
             # message.as_string() 将MIMEText对象变为str
             smtp.sendmail(sender_from, sender_to, message.as_string())
@@ -39,4 +41,4 @@ class email():
 if __name__ == '__main__':
     lsi = [1,2,3]
     sendemail = email()
-    email.send_email('111','111')
+    email.send_email('111','111222')
