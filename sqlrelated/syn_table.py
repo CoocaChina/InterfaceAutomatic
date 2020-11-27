@@ -67,4 +67,5 @@ if __name__ == '__main__':
     syn_mysql_test = syn_mysql()
     syn_mysql_test.syn_script('sxc_ic')
     syn_mysql_test.selectDB.close()
+    print('1111')
 
